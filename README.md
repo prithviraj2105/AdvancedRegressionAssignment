@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# Advanced Regression Assignment
+> Ridge and Lasso Regression model for predicting House Price.
 
 
 ## Table of Contents
@@ -11,38 +11,55 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- This project is part of course study assignment. The course is Advanced Certification Program in Machine Learning and Deep Learning (ACP in ML & DL) conducted by IIIT Banglore. The project is building a Ridge and Lasso Regression model for predicting House Price.
+- A US-based housing company named Surprise Housing has decided to enter the Australian market. The company uses data analytics to purchase houses at a price below their actual values and flip them on at a higher price. The management aspires to understand how exactly the prices vary with the housing features. They can accordingly manipulate the strategy of the firm and concentrate on areas that will yield high returns.
+
+The company wants to know:
+- Which variables are significant in predicting the price of a house, and
+- How well those variables describe the price of a house.
+
+- the company has collected a data set from the sale of houses in Australia.
+
+Requirement is to build a regression model using regularisation in order to predict the actual value of the prospective properties and decide whether to invest in them or not.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
 
+#### Train data
+r2 score = 0.8748348448916363 rss = 3.989855681947641 mse = 0.004447999645426579 rmse = 0.06669332534389463
+#### Test data
+r2 score = 0.7658494795148396 rss = 3.239954389683936 mse = 0.008415465947231002 rmse = 0.09173584875734787
+
+Based on the final model the top 5 features which most contribute in determining the House price are;
+- ‘OverallQual’ (Rating of the overall material and finish of the house) has positive correlation with Sale Price.
+- ‘GrLivArean’ (living area above grade (ground) in square feet) has positive correlation with Sale Price.
+- ‘TotalBsmtSF’ (Basement area in square feet) has positive correlation with Sale Price.
+- ‘GarageArea’ (Size of garage in square feet) has positive correlation with Sale Price.
+- ‘TotRmsAbvGrd’ (Total rooms above grade (does not include bathrooms)) has positive correlation with Sale Price.
+
+The analysis has shown that the most obvious factors have contributed the sale price of the house. We can see that the quality of the material and finish of the house has highest impact on the sale price, price increases as the rating of the quality increases. The other significant factors affecting the price most are the size of living area above ground, basement area, garage area and number of rooms above ground.
+The housing company should consider buying houses with high quality material and finish.
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Jupyter Notebook - version 6.5.4
+- Python - version 3.11.5
+- numpy - version 1.24.3
+- pandas - version 2.0.3
+- seaborn - version 0.12.2
+- matplotlib - version 3.7.2
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project is done with reference to a example 'Predict the sales given the spend on marketing' covered in the Advanced Regression module.
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@prithviraj2105] - feel free to contact me!
 
 
 <!-- Optional -->
