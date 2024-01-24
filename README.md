@@ -18,16 +18,21 @@ The company wants to know:
 - Which variables are significant in predicting the price of a house, and
 - How well those variables describe the price of a house.
 
-- the company has collected a data set from the sale of houses in Australia.
+The company has collected a data set from the sale of houses in Australia.
 
-Requirement is to build a regression model using regularisation in order to predict the actual value of the prospective properties and decide whether to invest in them or not.
+The requirement is to build a regression model using regularisation in order to predict the actual value of the prospective properties and decide whether to invest in them or not.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
 
+We have chosen Lasso Regression model with optimal alpha=0.001 as final model because as per analysis this is the most robust and generalisable model.
+This model has far less number of features which translates to reduction in complexity. The model is simpler and thus interpretable.
+The difference between R^2 of Train and Test data is comparatively less in this model. The metrics data shows that though the model's accuracy is slightly low on training data it is more generalisable and performs better on unseen data.
 #### Train data
+
 r2 score = 0.8748348448916363 rss = 3.989855681947641 mse = 0.004447999645426579 rmse = 0.06669332534389463
+
 #### Test data
 r2 score = 0.7658494795148396 rss = 3.239954389683936 mse = 0.008415465947231002 rmse = 0.09173584875734787
 
@@ -38,8 +43,9 @@ Based on the final model the top 5 features which most contribute in determining
 - ‘GarageArea’ (Size of garage in square feet) has positive correlation with Sale Price.
 - ‘TotRmsAbvGrd’ (Total rooms above grade (does not include bathrooms)) has positive correlation with Sale Price.
 
-The analysis has shown that the most obvious factors have contributed the sale price of the house. We can see that the quality of the material and finish of the house has highest impact on the sale price, price increases as the rating of the quality increases. The other significant factors affecting the price most are the size of living area above ground, basement area, garage area and number of rooms above ground.
-The housing company should consider buying houses with high quality material and finish.
+The analysis has shown that the most obvious factors have contributed the sale price of the house. We can see that the quality of the material and finish of the house has highest impact on the sale price, price increases as the rating of the quality increases. The other significant factors affecting the price are the size of living area above ground, basement area, garage area and number of rooms above ground.
+
+The housing company should consider concentrating on houses with high quality material and finish.
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
