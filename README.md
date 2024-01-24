@@ -36,7 +36,9 @@ r2 score = 0.8748348448916363 rss = 3.989855681947641 mse = 0.004447999645426579
 #### Test data
 r2 score = 0.7658494795148396 rss = 3.239954389683936 mse = 0.008415465947231002 rmse = 0.09173584875734787
 
-Based on the final model the top 5 features which most contribute in determining the House price are;
+Based on the final model we can say that the model describes 87% of the variability in price of house and also has decent predictive power with 0.77 r2 score on test data.
+
+The top 5 features which are most significant in determining the House price are;
 - ‘OverallQual’ (Rating of the overall material and finish of the house) has positive correlation with Sale Price.
 - ‘GrLivArean’ (living area above grade (ground) in square feet) has positive correlation with Sale Price.
 - ‘TotalBsmtSF’ (Basement area in square feet) has positive correlation with Sale Price.
