@@ -43,7 +43,7 @@ Based on the final model the top 5 features which most contribute in determining
 - ‘GarageArea’ (Size of garage in square feet) has positive correlation with Sale Price.
 - ‘TotRmsAbvGrd’ (Total rooms above grade (does not include bathrooms)) has positive correlation with Sale Price.
 
-The analysis has shown that the most obvious factors have contributed the sale price of the house. We can see that the quality of the material and finish of the house has highest impact on the sale price, price increases as the rating of the quality increases. The other significant factors affecting the price are the size of living area above ground, basement area, garage area and number of rooms above ground.
+The analysis has shown that the most obvious factors have contributed to the sale price of the house. We can see that the quality of the material and finish of the house has highest impact on the sale price, price increases as the rating of the quality increases. The other significant factors affecting the price are the size of living area above ground, basement area, garage area and number of rooms above ground.
 
 The housing company should consider concentrating on houses with high quality material and finish.
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
